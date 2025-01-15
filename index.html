@@ -4,12 +4,12 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>UPRAK - Personal Website</title>
+  <title>GORA - Geografi Aware</title>
   <meta name="description" content="">
   <meta name="keywords" content="">
 
   <!-- Favicons -->
-  <link href="assets/img/kupu.png" rel="icon">
+  <link href="assets/img/gora.png" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Fonts -->
@@ -21,16 +21,17 @@
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
   <!-- Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
 
   <!-- =======================================================
-  * Template Name: Personal
-  * Template URL: https://bootstrapmade.com/personal-free-resume-bootstrap-template/
-  * Updated: Nov 04 2024 with Bootstrap v5.3.3
+  * Template Name: Selecao
+  * Template URL: https://bootstrapmade.com/selecao-bootstrap-template/
+  * Updated: Aug 07 2024 with Bootstrap v5.3.3
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
@@ -42,36 +43,18 @@
     <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
 
       <a href="index.html" class="logo d-flex align-items-center">
-        <!-- Uncomment the line below if you also wish to use an image logo -->
-        <!-- <img src="assets/img/logo.png" alt=""> -->
-        <h1 class="sitename">Personal</h1>
+        <img src="assets/img/gora2.png" alt="Home">
+        <h1 class="sitename">GORA</h1>
       </a>
 
       <nav id="navmenu" class="navmenu">
         <ul>
-          <li><a href="index.html" class="active">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="resume.html">Resume</a></li>
-          <li><a href="services.html">Services</a></li>
-          <li><a href="portfolio.html">Portfolio</a></li>
-          <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-            <ul>
-              <li><a href="#">Dropdown 1</a></li>
-              <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-                <ul>
-                  <li><a href="#">Deep Dropdown 1</a></li>
-                  <li><a href="#">Deep Dropdown 2</a></li>
-                  <li><a href="#">Deep Dropdown 3</a></li>
-                  <li><a href="#">Deep Dropdown 4</a></li>
-                  <li><a href="#">Deep Dropdown 5</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Dropdown 2</a></li>
-              <li><a href="#">Dropdown 3</a></li>
-              <li><a href="#">Dropdown 4</a></li>
-            </ul>
-          </li>
-          <li><a href="contact.html">Contact</a></li>
+          <li><a href="#hero" class="active">Beranda</a></li>
+          <li><a href="#about">Tentang</a></li>
+          <li><a href="#call-to-action">Darurat</a></li>
+          <li><a href="#portfolio">Informasi</a></li>
+          <li><a href="#team">Pemilik</a></li>
+          <li><a href="#contact">Kontak</a></li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
@@ -84,27 +67,600 @@
     <!-- Hero Section -->
     <section id="hero" class="hero section dark-background">
 
-      <img src="assets/img/hero-bg.jpg" alt="" data-aos="fade-in">
+      <div id="hero-carousel" data-bs-interval="5000" class="container carousel carousel-fade" data-bs-ride="carousel">
 
-      <div class="container" data-aos="zoom-out" data-aos-delay="100">
-        <h2>Emily Jones</h2>
-        <p>I'm <span class="typed" data-typed-items="Designer, Developer, Freelancer, Photographer">Photographer</span><span class="typed-cursor typed-cursor--blink"></span></p>
-        <div class="social-links">
-          <a href="#"><i class="bi bi-twitter-x"></i></a>
-          <a href="#"><i class="bi bi-facebook"></i></a>
-          <a href="#"><i class="bi bi-instagram"></i></a>
-          <a href="#"><i class="bi bi-linkedin"></i></a>
+        <!-- Slide 1 -->
+        <div class="carousel-container">
+          <h2 class="animate__animated animate__fadeInDown">Selamat Datang di GORA</h2>
+          <p class="animate__animated animate__fadeInUp"><i>Geografi Aware</i></p>
+          <a href="https://drive.google.com/file/d/1WVAoUP_CGE_sscuTnV_zfK6ElwUXyooN/preview" class="btn-get-started animate__animated animate__fadeInUp scrollto">Panduan Video</a>
         </div>
+
       </div>
 
+      <svg class="hero-waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28 " preserveAspectRatio="none">
+        <defs>
+          <path id="wave-path" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z"></path>
+        </defs>
+        <g class="wave1">
+          <use xlink:href="#wave-path" x="50" y="3"></use>
+        </g>
+        <g class="wave2">
+          <use xlink:href="#wave-path" x="50" y="0"></use>
+        </g>
+        <g class="wave3">
+          <use xlink:href="#wave-path" x="50" y="9"></use>
+        </g>
+      </svg>
+
     </section><!-- /Hero Section -->
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Tentang</h2>
+        <p>Aplikasi</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-6 content" data-aos="fade-up" data-aos-delay="100">
+              <p><b>GORA</b>(Geografi Aware) adalah aplikasi web yang hadir sebagai platform informasi, pelaporan, dan konsultasi mengenai bencana alam di Indonesia. Dengan semangat untuk meningkatkan kesadaran dan kesiapsiagaan masyarakat, <b>GORA</b> menyajikan informasi bencana yang akurat, layanan pelaporan langsung, dan konsultasi khusus untuk membantu masyarakat lebih siap menghadapi risiko bencana. <b>GORA</b> dirancang agar mudah digunakan oleh siapa pun, dari berbagai lapisan masyarakat, guna menciptakan lingkungan yang lebih aman dan lebih siap dalam menghadapi potensi bencana.</p>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /About Section -->
+
+    <!-- Features Section -->
+    <section id="features" class="features section">
+
+      <div class="container">
+
+        <ul class="nav nav-tabs row  d-flex" data-aos="fade-up" data-aos-delay="100">
+          <li class="nav-item col-3">
+            <a class="nav-link active show" data-bs-toggle="tab" data-bs-target="#features-tab-1">
+              <h4 class="d-none d-lg-block">Visi</h4>
+            </a>
+          </li>
+          <li class="nav-item col-3">
+            <a class="nav-link" data-bs-toggle="tab" data-bs-target="#features-tab-2">
+              <h4 class="d-none d-lg-block">Misi</h4>
+            </a>
+          </li>
+        </ul><!-- End Tab Nav -->
+
+        <div class="tab-content" data-aos="fade-up" data-aos-delay="200">
+
+          <div class="tab-pane fade active show" id="features-tab-1">
+            <div class="row">
+              <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
+                <h3>Visi GORA</h3>
+                <p>
+                  Mewujudkan masyarakat yang sigap, tanggap, dan sadar akan risiko bencana adalah langkah krusial dalam membangun lingkungan yang lebih aman dan resilien. Dengan meningkatkan kesadaran akan potensi bencana di sekitar kita, kita dapat mengambil langkah-langkah preventif yang efektif. Kesiapsiagaan yang tinggi akan memungkinkan kita untuk menghadapi bencana dengan lebih baik, meminimalkan kerugian, dan mempercepat proses pemulihan. 
+                </p>
+              </div>
+            </div>
+          </div><!-- End Tab Content Item -->
+
+          <div class="tab-pane fade" id="features-tab-2">
+            <div class="row">
+              <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
+                <h3>Misi GORA</h3>
+                <ul>
+                  <li><i class="bi bi-check2-all"></i> <span>Menyediakan informasi terkini dan terpercaya terkait potensi dan kejadian bencana di wilayah tertentu.</span></li>
+                  <li><i class="bi bi-check2-all"></i> <span>Mendorong partisipasi aktif masyarakat dalam melaporkan kejadian bencana secara cepat dan akurat.</span></li>
+                  <li><i class="bi bi-check2-all"></i> <span>Menyediakan layanan konsultasi bagi masyarakat agar siap menghadapi potensi bencana dan memahami cara-cara penanggulangan yang efektif.</span></li>
+                  <li><i class="bi bi-check2-all"></i> <span>Mengedukasi masyarakat untuk meningkatkan kesiapsiagaan dalam menghadapi bencana melalui informasi dan panduan yang mudah diakses.</span></li>
+                </ul>
+              </div>
+            </div>
+          </div><!-- End Tab Content Item -->
+
+    </section><!-- /Features Section -->
+
+    <!-- Call To Action Section -->
+    <section id="call-to-action" class="call-to-action section dark-background">
+
+      <div class="container">
+
+        <div class="row" data-aos="zoom-in" data-aos-delay="100">
+          <div class="col-xl-9 text-center text-xl-start">
+            <h3>Nomor Darurat</h3>
+            <p>Polisi: <b>110</b></p>
+            <p>Pemadam Kebakaran: <b>113</b> atau <b>1131</b></p>
+            <p>Badan Nasional Penanggulangan Bencana: <b>117</b></p>
+            <p>Posko Bencana Alam: <b>129</b></p>
+          </div>
+          <div class="col-xl-3 cta-btn-container text-center">
+            <a class="cta-btn align-middle" href="https://t.me/TeamGORA">Lapor Kejadian Bencana Kepada Kami</a>
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /Call To Action Section -->
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio section">
+
+       <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Artikel</h2>
+        <p>Informatif</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="swiper init-swiper">
+          <script type="application/json" class="swiper-config">
+            {
+              "loop": true,
+              "speed": 600,
+              "autoplay": {
+                "delay": 5000
+              },
+              "slidesPerView": "auto",
+              "pagination": {
+                "el": ".swiper-pagination",
+                "type": "bullets",
+                "clickable": true
+              },
+              "breakpoints": {
+                "320": {
+                  "slidesPerView": 1,
+                  "spaceBetween": 40
+                },
+                "1200": {
+                  "slidesPerView": 3,
+                  "spaceBetween": 10
+                }
+              }
+            }
+          </script>
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <h3>SIMULASI PENANGGULANGAN BENCANA KEBAKARAN</h3>
+                <h4>Badan Penanggulangan Bencana Daerah (BPBD) Kabupaten Blora</h4>
+                <p>
+                  <a href="https://www.pn-blora.go.id/main/index.php/berita/berita-terkini/884-simulasi-penanggulangan-bencana-kebakaran"> 
+                  <img src="https://www.pn-blora.go.id/main/images/berita2016/simulasi_kebakaran5.jpg" class="img-fluid"> </a>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <h3>Potensi Gempa Megathrust, Pemerintah Perlu Siapkan Penanggulangan dan Mitigasi</h3>
+                <h4>Kompas.com</h4>
+                <p>
+                  <a href="https://lestari.kompas.com/read/2024/08/25/190000986/potensi-gempa-megathrust-pemerintah-perlu-siapkan-penanggulangan-dan"> 
+                  <img src="https://asset.kompas.com/crops/mxafNuC91WcNBcXH4cOLaqgQgCM=/58x156:1629x1203/1200x800/data/photo/2024/08/14/66bc21952691a.png" class="img-fluid"></a>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <h3>Belajar Mitigasi Bencana Tsunami dari Jepang yang Efektif untuk Indonesia</h3>
+                <h4>Mediaindonesia.com</h4>
+                <p>
+                  <a href="https://mediaindonesia.com/humaniora/715168/belajar-mitigasi-bencana-tsunami-dari-jepang-yang-efektif-untuk-indonesia"> 
+                  <img src="https://mediaindonesia.com/cdn-cgi/image/width=800,quality=80,format=webp/https://asset.mediaindonesia.com/news/2024/11/05/1730792871_cca73d0dcc9f693e5356.jpg" class="img-fluid"></a>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <h3>Belajar Mitigasi Bencana Tsunami dari Jepang yang Efektif untuk Indonesia</h3>
+                <h4>Mediaindonesia.com</h4>
+                <p>
+                  <a href="https://mediaindonesia.com/humaniora/715168/belajar-mitigasi-bencana-tsunami-dari-jepang-yang-efektif-untuk-indonesia"> 
+                  <img src="https://mediaindonesia.com/cdn-cgi/image/width=800,quality=80,format=webp/https://asset.mediaindonesia.com/news/2024/11/05/1730792871_cca73d0dcc9f693e5356.jpg" class="img-fluid"></a>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <h3>Belajar Mitigasi Bencana Tsunami dari Jepang yang Efektif untuk Indonesia</h3>
+                <h4>Mediaindonesia.com</h4>
+                <p>
+                  <a href="https://mediaindonesia.com/humaniora/715168/belajar-mitigasi-bencana-tsunami-dari-jepang-yang-efektif-untuk-indonesia"> 
+                  <img src="https://mediaindonesia.com/cdn-cgi/image/width=800,quality=80,format=webp/https://asset.mediaindonesia.com/news/2024/11/05/1730792871_cca73d0dcc9f693e5356.jpg" class="img-fluid"></a>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
+
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+
+    </section><!-- /Testimonials Section -->
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Informasi</h2>
+        <p>Artikel Berita</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
+
+          <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
+            <li data-filter="*" class="filter-active">Semua</li>
+          </ul><!-- End Portfolio Filters -->
+
+          <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+              <img src="https://img.okezone.com/content/2025/01/13/337/3103839/gunung_ibu-T9Eh_large.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Gunung Ibu Erupsi, Semburkan Abu Vulkanik</h4>
+                <p>Senin, 13 Januari 2025 |07:29 WIB</p>
+                <a href="https://img.okezone.com/content/2025/01/13/337/3103839/gunung_ibu-T9Eh_large.jpg" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="https://nasional.okezone.com/read/2025/01/13/337/3103839/gunung-ibu-erupsi-semburkan-abu-vulkanik-2-500-meter-pagi-ini" title="Detail Lebih" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+              <img src="https://img.okezone.com/content/2025/01/08/337/3102394/banjir-RQd5_large.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>PERISKOP 2025: Waspada Bencana Alam Masih Mengintai Indonesia</h4>
+                <p>Kamis, 09 Januari 2025 |06:25 WIB</p>
+                <a href="https://img.okezone.com/content/2025/01/08/337/3102394/banjir-RQd5_large.jpg" title="banjir" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="https://regional.kompas.com/read/2024/11/05/095149578/erupsi-gunung-lewotobi-pemkab-flores-timur-tetapkan-status-tanggap-darurat" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+              <img src="https://img.okezone.com/content/2025/01/10/340/3103065/banjir-R3XU_large.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Banjir Terjang 3 Desa di Gorontalo, 365 Jiwa Terdampak</h4>
+                <p>Jum'at, 10 Januari 2025 |00:09 WIB</p>
+                <a href="https://img.okezone.com/content/2025/01/10/340/3103065/banjir-R3XU_large.jpg" title="Banjir Terjang 3 Desa di Gorontalo, 365 Jiwa Terdampak" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="https://news.okezone.com/read/2025/01/10/340/3103065/banjir-terjang-3-desa-di-gorontalo-365-jiwa-terdampak" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+              <img src="https://akcdn.detik.net.id/community/media/visual/2025/01/14/letusan-lewotobi_169.jpeg?w=700&q=90" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Gunung Ile Lewotolok di Lembata Meletus, Waspada Longsoran Lava</h4>
+                <p style="color:#404356;">Kamis, 05 Sep 2024 17:30 WIB</p>
+                <a href="https://akcdn.detik.net.id/community/media/visual/2025/01/14/letusan-lewotobi_169.jpeg?w=700&q=90" title="Gunung Ile Lewotolok" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="https://www.detik.com/bali/nusra/d-7731371/gunung-ile-lewotolok-di-lembata-meletus-pagi-ini-waspada-longsoran-lava" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+              <img src="https://akcdn.detik.net.id/community/media/visual/2025/01/09/fenomena-tanah-gerak-di-malang-selatan_169.jpeg?w=700&q=90" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Fenomena Tanah Gerak di Malang Rusak Rumah Warga</h4>
+                <p style="color:#404356;">Kamis, 09 Jan 2025 12:10 WIB</p>
+                <a href="https://akcdn.detik.net.id/community/media/visual/2025/01/09/fenomena-tanah-gerak-di-malang-selatan_169.jpeg?w=700&q=90" title="Fenomena Tanah Gerak di Malang Rusak Rumah Warga" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="https://www.detik.com/jatim/berita/d-7724316/fenomena-tanah-gerak-di-malang-rusak-rumah-warga-sejak-2016" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+              <img src="https://akcdn.detik.net.id/community/media/visual/2025/01/06/longsor-di-tanah-barak_169.jpeg?w=700&q=90" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Tebing Tanah Barak Bali Longsor!!</h4>
+                <p style="color:#404356;">Selasa, 07 Jan 2025 15:31 WIB</p>
+                <a href="https://akcdn.detik.net.id/community/media/visual/2025/01/06/longsor-di-tanah-barak_169.jpeg?w=700&q=90" title="Tebing Tanah Barak Bali Longsor!!" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="https://travel.detik.com/travel-news/d-7721430/tebing-tanah-barak-bali-yang-terkenal-itu-longsor" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+              <img src="https://cdn01.metrotvnews.com/dynamic/content/2025/01/15/b2lCpMGz/a_678711fb7077e.jpg?w=720" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Hampir Seribu Rumah di Kampar Terendam Banjir</h4>
+                <p style="color:#404356;">Rabu,15 January 2025 08:40</p>
+                <a href="https://cdn01.metrotvnews.com/dynamic/content/2025/01/15/b2lCpMGz/a_678711fb7077e.jpg?w=720" title="Hampir Seribu Rumah di Kampar Terendam Banjir" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="https://www.metrotvnews.com/read/b2lCpMGz-hampir-seribu-rumah-di-kampar-terendam-banjir" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+              <img src="https://cdn01.metrotvnews.com/dynamic/content/2025/01/13/kqYCY2DX/a_678500222cb25.jpg?w=720" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Longsor di Batam, 3 Orang Tewas dan 1 Masih Dicari</h4>
+                <p style="color:#404356;">Senin, 13 January 2025 18:59</p>
+                <a href="https://cdn01.metrotvnews.com/dynamic/content/2025/01/13/kqYCY2DX/a_678500222cb25.jpg?w=720" title="Longsor di Batam, 3 Orang Tewas dan 1 Masih Dicari" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="https://www.metrotvnews.com/read/kqYCY2DX-longsor-di-batam-3-orang-tewas-dan-1-masih-dicari" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+              <img src="https://cdn01.metrotvnews.com/dynamic/content/2025/01/13/NrWCow22/a_6784eb90803c3.jpeg?w=720" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Bencana Hidrometeorologi Basah Dominasi Kejadian di 2025</h4>
+                <p style="color:#404356;">Senin, 13 January 2025 17:30</p>
+                <a href="https://cdn01.metrotvnews.com/dynamic/content/2025/01/13/NrWCow22/a_6784eb90803c3.jpeg?w=720" title="Bencana Hidrometeorologi Basah Dominasi Kejadian di 2025" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="https://www.metrotvnews.com/read/NrWCow22-bencana-hidrometeorologi-basah-dominasi-kejadian-di-2025" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+              <img src="https://img.okezone.com/content/2025/01/14/337/3104198/ilustrasi_banjir-0me2_large.jpeg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Bencana Melanda di Awal Tahun 2025</h4>
+                <p style="color:#404356;">Selasa 14 Januari 2025 08:46 WIB</p>
+                <a href="https://img.okezone.com/content/2025/01/14/337/3104198/ilustrasi_banjir-0me2_large.jpeg" title="Bencana Melanda di Awal Tahun 2025" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="https://nasional.okezone.com/amp/2025/01/14/337/3104198/bnpb-74-kali-bencana-melanda-di-awal-tahun-2025-didominasi-banjir%22" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+          </div><!-- End Portfolio Container -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Portfolio Section -->
+
+    <!-- Faq Section -->
+    <section id="faq" class="faq section">
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Pertanyaan</h2>
+        <p>Pertanyaan Populer</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up">
+        <div class="row">
+          <div class="col-12">
+            <div class="custom-accordion" id="accordion-faq">
+              <div class="accordion-item">
+                <h2 class="mb-0">
+                  <button class="btn btn-link" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-faq-1">
+                    Pak, kenapa kita sering kebanjiran walaupun sudah ada tanggul? Apa ada cara biar lebih aman?
+                  </button>
+                </h2>
+
+                <div id="collapse-faq-1" class="collapse" aria-labelledby="headingOne" data-parent="#accordion-faq">
+                  <div style="color:#404356;" class="accordion-body">
+                    Tanggul memang membantu mengurangi risiko banjir, tetapi ada faktor lain seperti curah hujan ekstrem, kondisi saluran drainase, dan pengelolaan air di hulu. Untuk lebih aman, kita bisa melakukan pembersihan rutin saluran air, menanam pohon di area resapan, dan memasang sistem peringatan dini banjir.
+                  </div>
+                </div>
+              </div>
+              <!-- .accordion-item -->
+
+             <div class="accordion-item">
+                <h2 class="mb-0">
+                  <button class="btn btn-link" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-faq-2">
+                    Bu, kalau ada gempa lagi, kami harus ngapain? Soalnya waktu kemarin gempa, kami bingung semua.
+                  </button>
+                </h2>
+
+                <div id="collapse-faq-2" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion-faq">
+                  <div style="color:#404356;" class="accordion-body">
+                    Saat gempa, prioritas utama adalah mencari tempat berlindung yang aman, seperti di bawah meja yang kokoh atau menjauh dari jendela dan benda berat. Setelah itu, segera menuju area terbuka. Kami juga bisa mengadakan pelatihan tanggap darurat agar semua warga tahu apa yang harus dilakukan.
+                  </div>
+                </div>
+              </div>
+              <!-- .accordion-item -->
+
+              <div class="accordion-item">
+                <h2 class="mb-0">
+                  <button class="btn btn-link collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-faq-3">
+                    Kalau bangun rumah di tebing, kenapa harus jauh dari tebing, ya? Padahal tanah di sana kan luas?
+                  </button>
+                </h2>
+
+                <div id="collapse-faq-3" class="collapse" aria-labelledby="headingThree" data-parent="#accordion-faq">
+                <div style="color:#404356;" class="accordion-body">
+                  Pembangunan dekat tebing berisiko karena tanahnya bisa longsor, terutama saat hujan lebat. Jarak aman diperlukan untuk melindungi rumah dan penghuninya. Kami menyarankan untuk mengikuti pedoman tata ruang agar lebih aman dalam jangka panjang.
+                </div>
+              </div>
+            </div>
+            <!-- .accordion-item -->
+
+          </div>
+        </div>
+      </div>
+      </div>
+    </section><!-- /Faq Section -->
+
+    <!-- Team Section -->
+    <section id="team" class="team section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Tim</h2>
+        <p>Kenali Tim Kami</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
+            <div class="team-member">
+              <div class="member-img">
+                <img src="assets/img/team/Naufal1.png" class="img-fluid" alt="">
+                <div class="social">
+                  <a href="https://www.instagram.com/anaufal_f/"><i class="bi bi-instagram"></i></a>
+                </div>
+              </div>
+              <div class="member-info">
+                <h4>Ahmad Naufal Fachriyadi</h4>
+                <span style="color:#404356;">Penanggung Jawab Fitur</span>
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
+            <div class="team-member">
+              <div class="member-img">
+                <img src="assets/img/team/Rafly.png" class="img-fluid" alt="">
+                <div class="social">
+                  <a href="https://x.com/Zleaz1"><i class="bi bi-twitter-x"></i></a>
+                  <a href="https://www.instagram.com/_rafly_z/"><i class="bi bi-instagram"></i></a>
+                </div>
+              </div>
+              <div class="member-info">
+                <h4>Muhammad Rafly</h4>
+                <span style="color:#404356;">Pemeliharaan Website</span>
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
+            <div class="team-member">
+              <div class="member-img">
+                <img src="assets/img/team/Ceria.png" class="img-fluid" alt="">
+                <div class="social">
+                  <a href="https://x.com/oreocia"><i class="bi bi-twitter-x"></i></a>
+                  <a href="https://www.instagram.com/stceany/"><i class="bi bi-instagram"></i></a>
+                </div>
+              </div>
+              <div class="member-info">
+                <h4>Ceria Nikmati Justisia</h4>
+                <span style="color:#404356;">Desain Aplikasi</span>
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="400">
+            <div class="team-member">
+              <div class="member-img">
+                <img src="assets/img/team/Nabil.png" class="img-fluid" alt="">
+                <div class="social">
+                  <a href="https://www.instagram.com/npp886/"><i class="bi bi-instagram"></i></a>
+                </div>
+              </div>
+              <div class="member-info">
+                <h4>Nabil Pasyuhada Putra</h4>
+                <span style="color:#404356;">Editor Aplikasi</span>
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+          
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="400">
+            <div class="team-member">
+              <div class="member-img">
+                <img src="assets/img/team/Udin1.png" class="img-fluid" alt="">
+                <div class="social">
+                  <a href="https://www.instagram.com/mihsndn._/"><i class="bi bi-instagram"></i></a>
+                </div>
+              </div>
+              <div class="member-info">
+                <h4>Muhammad Ihsanudin</h4>
+                <span style="color:#404356;">Ide, Inovasi, dan Kreatif Aplikasi</span>
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Team Section -->
+
+    </section><!-- /Recent Posts Section -->
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Kontak</h2>
+        <p>Kontak Kami</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade" data-aos-delay="100">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-4">
+            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="200">
+              <i class="bi bi-geo-alt flex-shrink-0"></i>
+              <div>
+                <h3>Alamat</h3>
+                <p>GR34+6VG, Tlk, Seriguna, Kec. Tlk. Gelam, Kabupaten Ogan Komering Ilir, Sumatera Selatan 30673</p>
+              </div>
+            </div><!-- End Info Item -->
+
+            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
+              <i class="bi bi-telephone flex-shrink-0"></i>
+              <div>
+                <h3>Panggil Kami</h3>
+                <p>+1 5589 55488 55</p>
+              </div>
+            </div><!-- End Info Item -->
+
+            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
+              <i class="bi bi-envelope flex-shrink-0"></i>
+              <div>
+                <h3>Email Kami</h3>
+                <p>info@example.com</p>
+              </div>
+            </div><!-- End Info Item -->
+
+          </div>
+
+          <div class="col-lg-8">
+            <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
+              <div class="row gy-4">
+
+                <div class="col-md-6">
+                  <input type="text" name="name" class="form-control" placeholder="Nama Anda" required="">
+                </div>
+
+                <div class="col-md-6 ">
+                  <input type="email" class="form-control" name="email" placeholder="Email Anda" required="">
+                </div>
+
+                <div class="col-md-12">
+                  <input type="text" class="form-control" name="subject" placeholder="Subjek" required="">
+                </div>
+
+                <div class="col-md-12">
+                  <textarea class="form-control" name="message" rows="6" placeholder="Pesan" required=""></textarea>
+                </div>
+
+                <div class="col-md-12 text-center">
+                  <div class="loading">Loading</div>
+                  <div class="error-message">Error! Ulangi Pesan</div>
+                  <div class="sent-message">Pesan anda Telah Terkirim. Terima Kasih!</div>
+
+                  <button type="submit">Kirim Pesan</button>
+                </div>
+
+              </div>
+            </form>
+          </div><!-- End Contact Form -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Contact Section -->
 
   </main>
 
   <footer id="footer" class="footer dark-background">
     <div class="container">
-      <h3 class="sitename">Personal</h3>
-      <p>Et aut eum quis fuga eos sunt ipsa nihil. Labore corporis magni eligendi fuga maxime saepe commodi placeat.</p>
+      <h3 class="sitename">GORA</h3>
+      <p>Geografi Aware, Aplikasi Untuk Masyarakat Indonesia.</p>
       <div class="social-links d-flex justify-content-center">
         <a href=""><i class="bi bi-twitter-x"></i></a>
         <a href=""><i class="bi bi-facebook"></i></a>
@@ -114,14 +670,14 @@
       </div>
       <div class="container">
         <div class="copyright">
-          <span>Copyright</span> <strong class="px-1 sitename">Personal</strong> <span>All Rights Reserved</span>
+          <span>Copyright ©</span> <strong class="px-1 sitename">GORA</strong> <span>All Rights Reserved</span>
         </div>
         <div class="credits">
           <!-- All the links in the footer should remain intact. -->
           <!-- You can delete the links only if you've purchased the pro version. -->
           <!-- Licensing information: https://bootstrapmade.com/license/ -->
           <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
-          Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+          Design oleh <a href="https://bootstrapmade.com/">BootstrapMade</a>
         </div>
       </div>
     </div>
@@ -137,13 +693,10 @@
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="assets/vendor/php-email-form/validate.js"></script>
   <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/typed.js/typed.umd.js"></script>
-  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
   <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
   <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
   <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
 
   <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
