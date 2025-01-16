@@ -26,7 +26,7 @@
   $contact->smtp = array(
     'host' => 'rafly-ya.github.io/GORA/',
     'username' => 'Raflyy',
-    'password' => 'raflydanjecky2024',
+    'password' => '',
     'port' => '587'
   );
   
