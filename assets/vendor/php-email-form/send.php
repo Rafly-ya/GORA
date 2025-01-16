@@ -27,8 +27,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $mail->isSMTP();
         $mail->Host = 'muhammadrafly2808.gmail.com'; // Gunakan host SMTP Anda
         $mail->SMTPAuth = true;
-        $mail->Username = 'muhammadrafly2808@gmail.com'; // Ganti dengan email pengirim Anda
-        $mail->Password = 'raflydanjecky2024'; // Gunakan password aplikasi jika menggunakan Gmail
+        $mail->Username = '@gmail.com'; // Ganti dengan email pengirim Anda
+        $mail->Password = ''; // Gunakan password aplikasi jika menggunakan Gmail
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
         $mail->Port = 587;
 
